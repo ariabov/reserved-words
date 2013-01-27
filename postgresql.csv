@@ -400,4 +400,4 @@ XMLROOT,non-reserved (cannot be function or type), http://www.postgresql.org/doc
 XMLSERIALIZE,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
 YEAR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
 YES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
-ZONE,non-reserved
+ZONE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
