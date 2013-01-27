@@ -1,47 +1,48 @@
 Ruby,
 ################
 ## Column 1: Word itself.
-## Column 2: Source referencing that the word is indeed reserved. Can be reference to the following:
+## Column 2: Additional information or details
+## Column 3: Source referencing that the word is indeed reserved. Can be reference to the following:
 ##           Project
-##           Website.
+##           Website
 ################
-BEGIN, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-END, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-alias, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-and, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-begin, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-break, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-case, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-class, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-def, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-defined, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-do, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-else, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-elsif, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-end, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-ensure, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-false, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-for, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-if, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-in, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-module, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-next, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-nil, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-not, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-or, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-redo, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-rescue, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-retry, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-return, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-self, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-super, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-then, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-true, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-undef, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-unless, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-until, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-when, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-while, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
-yield, https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+BEGIN, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+END, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+alias, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+and, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+begin, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+break, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+case, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+class, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+def, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+defined, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+do, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+else, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+elsif, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+end, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+ensure, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+false, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+for, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+if, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+in, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+module, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+next, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+nil, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+not, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+or, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+redo, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+rescue, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+retry, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+return, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+self, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+super, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+then, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+true, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+undef, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+unless, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+until, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+when, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+while, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
+yield, ,https://github.com/rubinius/rubinius/blob/master/lib/19/irb/completion.rb
 __FILE__,
 __LINE__,
