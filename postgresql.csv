@@ -1,397 +1,403 @@
 PostgreSQL,
-WORD,NOTES
-ABORT,non-reserved
-ABSOLUTE,non-reserved
-ACCESS,non-reserved
-ACTION,non-reserved
-ADD,non-reserved
-ADMIN,non-reserved
-AFTER,non-reserved
-AGGREGATE,non-reserved
-ALL,reserved
-ALSO,non-reserved
-ALTER,non-reserved
-ALWAYS,non-reserved
-ANALYSE,reserved
-ANALYZE,reserved
-AND,reserved
-ANY,reserved
-ARRAY,reserved
-AS,reserved
-ASC,reserved
-ASSERTION,non-reserved
-ASSIGNMENT,non-reserved
-ASYMMETRIC,reserved
-AT,non-reserved
-AUTHORIZATION,reserved (can be function or type)
-BACKWARD,non-reserved
-BEFORE,non-reserved
-BEGIN,non-reserved
-BETWEEN,non-reserved (cannot be function or type)
-BIGINT,non-reserved (cannot be function or type)
-BINARY,reserved (can be function or type)
-BIT,non-reserved (cannot be function or type)
-BOOLEAN,non-reserved (cannot be function or type)
-BOTH,reserved
-BY,non-reserved
-CACHE,non-reserved
-CALLED,non-reserved
-CASCADE,non-reserved
-CASCADED,non-reserved
-CASE,reserved
-CAST,reserved
-CATALOG,non-reserved
-CHAIN,non-reserved
-CHAR,non-reserved (cannot be function or type)
-CHARACTER,non-reserved (cannot be function or type)
-CHARACTERISTICS,non-reserved
-CHECK,reserved
-CHECKPOINT,non-reserved
-CLASS,non-reserved
-CLOSE,non-reserved
-CLUSTER,non-reserved
-COALESCE,non-reserved (cannot be function or type)
-COLLATE,reserved
-COLUMN,reserved
-COMMENT,non-reserved
-COMMENTS,non-reserved
-COMMIT,non-reserved
-COMMITTED,non-reserved
-CONCURRENTLY,reserved (can be function or type)
-CONFIGURATION,non-reserved
-CONNECTION,non-reserved
-CONSTRAINT,reserved
-CONSTRAINTS,non-reserved
-CONTENT,non-reserved
-CONTINUE,non-reserved
-CONVERSION,non-reserved
-COPY,non-reserved
-COST,non-reserved
-CREATE,reserved
-CREATEDB,non-reserved
-CREATEROLE,non-reserved
-CREATEUSER,non-reserved
-CROSS,reserved (can be function or type)
-CSV,non-reserved
-CURRENT,non-reserved
-CURRENT_CATALOG,reserved
-CURRENT_DATE,reserved
-CURRENT_ROLE,reserved
-CURRENT_SCHEMA,reserved (can be function or type)
-CURRENT_TIME,reserved
-CURRENT_TIMESTAMP,reserved
-CURRENT_USER,reserved
-CURSOR,non-reserved
-CYCLE,non-reserved
-DATA,non-reserved
-DATABASE,non-reserved
-DAY,non-reserved
-DEALLOCATE,non-reserved
-DEC,non-reserved (cannot be function or type)
-DECIMAL,non-reserved (cannot be function or type)
-DECLARE,non-reserved
-DEFAULT,reserved
-DEFAULTS,non-reserved
-DEFERRABLE,reserved
-DEFERRED,non-reserved
-DEFINER,non-reserved
-DELETE,non-reserved
-DELIMITER,non-reserved
-DELIMITERS,non-reserved
-DESC,reserved
-DICTIONARY,non-reserved
-DISABLE,non-reserved
-DISCARD,non-reserved
-DISTINCT,reserved
-DO,reserved
-DOCUMENT,non-reserved
-DOMAIN,non-reserved
-DOUBLE,non-reserved
-DROP,non-reserved
-EACH,non-reserved
-ELSE,reserved
-ENABLE,non-reserved
-ENCODING,non-reserved
-ENCRYPTED,non-reserved
-END,reserved
-ENUM,non-reserved
-ESCAPE,non-reserved
-EXCEPT,reserved
-EXCLUDE,non-reserved
-EXCLUDING,non-reserved
-EXCLUSIVE,non-reserved
-EXECUTE,non-reserved
-EXISTS,non-reserved (cannot be function or type)
-EXPLAIN,non-reserved
-EXTERNAL,non-reserved
-EXTRACT,non-reserved (cannot be function or type)
-FALSE,reserved
-FAMILY,non-reserved
-FETCH,reserved
-FIRST,non-reserved
-FLOAT,non-reserved (cannot be function or type)
-FOLLOWING,non-reserved
-FOR,reserved
-FORCE,non-reserved
-FOREIGN,reserved
-FORWARD,non-reserved
-FREEZE,reserved (can be function or type)
-FROM,reserved
-FULL,reserved (can be function or type)
-FUNCTION,non-reserved
-FUNCTIONS,non-reserved
-GLOBAL,non-reserved
-GRANT,reserved
-GRANTED,non-reserved
-GREATEST,non-reserved (cannot be function or type)
-GROUP,reserved
-HANDLER,non-reserved
-HAVING,reserved
-HEADER,non-reserved
-HOLD,non-reserved
-HOUR,non-reserved
-IDENTITY,non-reserved
-IF,non-reserved
-ILIKE,reserved (can be function or type)
-IMMEDIATE,non-reserved
-IMMUTABLE,non-reserved
-IMPLICIT,non-reserved
-IN,reserved
-INCLUDING,non-reserved
-INCREMENT,non-reserved
-INDEX,non-reserved
-INDEXES,non-reserved
-INHERIT,non-reserved
-INHERITS,non-reserved
-INITIALLY,reserved
-INLINE,non-reserved
-INNER,reserved (can be function or type)
-INOUT,non-reserved (cannot be function or type)
-INPUT,non-reserved
-INSENSITIVE,non-reserved
-INSERT,non-reserved
-INSTEAD,non-reserved
-INT,non-reserved (cannot be function or type)
-INTEGER,non-reserved (cannot be function or type)
-INTERSECT,reserved
-INTERVAL,non-reserved (cannot be function or type)
-INTO,reserved
-INVOKER,non-reserved
-IS,reserved (can be function or type)
-ISNULL,reserved (can be function or type)
-ISOLATION,non-reserved
-JOIN,reserved (can be function or type)
-KEY,non-reserved
-LANGUAGE,non-reserved
-LARGE,non-reserved
-LAST,non-reserved
-LC_COLLATE,non-reserved
-LC_CTYPE,non-reserved
-LEADING,reserved
-LEAST,non-reserved (cannot be function or type)
-LEFT,reserved (can be function or type)
-LEVEL,non-reserved
-LIKE,reserved (can be function or type)
-LIMIT,reserved
-LISTEN,non-reserved
-LOAD,non-reserved
-LOCAL,non-reserved
-LOCALTIME,reserved
-LOCALTIMESTAMP,reserved
-LOCATION,non-reserved
-LOCK,non-reserved
-LOGIN,non-reserved
-MAPPING,non-reserved
-MATCH,non-reserved
-MAXVALUE,non-reserved
-MINUTE,non-reserved
-MINVALUE,non-reserved
-MODE,non-reserved
-MONTH,non-reserved
-MOVE,non-reserved
-NAME,non-reserved
-NAMES,non-reserved
-NATIONAL,non-reserved (cannot be function or type)
-NATURAL,reserved (can be function or type)
-NCHAR,non-reserved (cannot be function or type)
-NEXT,non-reserved
-NO,non-reserved
-NOCREATEDB,non-reserved
-NOCREATEROLE,non-reserved
-NOCREATEUSER,non-reserved
-NOINHERIT,non-reserved
-NOLOGIN,non-reserved
-NONE,non-reserved (cannot be function or type)
-NOSUPERUSER,non-reserved
-NOT,reserved
-NOTHING,non-reserved
-NOTIFY,non-reserved
-NOTNULL,reserved (can be function or type)
-NOWAIT,non-reserved
-NULL,reserved
-NULLIF,non-reserved (cannot be function or type)
-NULLS,non-reserved
-NUMERIC,non-reserved (cannot be function or type)
-OBJECT,non-reserved
-OF,non-reserved
-OFF,non-reserved
-OFFSET,reserved
-OIDS,non-reserved
-ON,reserved
-ONLY,reserved
-OPERATOR,non-reserved
-OPTION,non-reserved
-OPTIONS,non-reserved
-OR,reserved
-ORDER,reserved
-OUT,non-reserved (cannot be function or type)
-OUTER,reserved (can be function or type)
-OVER,reserved (can be function or type)
-OVERLAPS,reserved (can be function or type)
-OVERLAY,non-reserved (cannot be function or type)
-OWNED,non-reserved
-OWNER,non-reserved
-PARSER,non-reserved
-PARTIAL,non-reserved
-PARTITION,non-reserved
-PASSWORD,non-reserved
-PLACING,reserved
-PLANS,non-reserved
-POSITION,non-reserved (cannot be function or type)
-PRECEDING,non-reserved
-PRECISION,non-reserved (cannot be function or type)
-PREPARE,non-reserved
-PREPARED,non-reserved
-PRESERVE,non-reserved
-PRIMARY,reserved
-PRIOR,non-reserved
-PRIVILEGES,non-reserved
-PROCEDURAL,non-reserved
-PROCEDURE,non-reserved
-QUOTE,non-reserved
-RANGE,non-reserved
-READ,non-reserved
-REAL,non-reserved (cannot be function or type)
-REASSIGN,non-reserved
-RECHECK,non-reserved
-RECURSIVE,non-reserved
-REFERENCES,reserved
-REINDEX,non-reserved
-RELATIVE,non-reserved
-RELEASE,non-reserved
-RENAME,non-reserved
-REPEATABLE,non-reserved
-REPLACE,non-reserved
-REPLICA,non-reserved
-RESET,non-reserved
-RESTART,non-reserved
-RESTRICT,non-reserved
-RETURNING,reserved
-RETURNS,non-reserved
-REVOKE,non-reserved
-RIGHT,reserved (can be function or type)
-ROLE,non-reserved
-ROLLBACK,non-reserved
-ROW,non-reserved (cannot be function or type)
-ROWS,non-reserved
-RULE,non-reserved
-SAVEPOINT,non-reserved
-SCHEMA,non-reserved
-SCROLL,non-reserved
-SEARCH,non-reserved
-SECOND,non-reserved
-SECURITY,non-reserved
-SELECT,reserved
-SEQUENCE,non-reserved
-SEQUENCES,non-reserved
-SERIALIZABLE,non-reserved
-SERVER,non-reserved
-SESSION,non-reserved
-SESSION_USER,reserved
-SET,non-reserved
-SETOF,non-reserved (cannot be function or type)
-SHARE,non-reserved
-SHOW,non-reserved
-SIMILAR,reserved (can be function or type)
-SIMPLE,non-reserved
-SMALLINT,non-reserved (cannot be function or type)
-SOME,reserved
-STABLE,non-reserved
-STANDALONE,non-reserved
-START,non-reserved
-STATEMENT,non-reserved
-STATISTICS,non-reserved
-STDIN,non-reserved
-STDOUT,non-reserved
-STORAGE,non-reserved
-STRICT,non-reserved
-STRIP,non-reserved
-SUBSTRING,non-reserved (cannot be function or type)
-SUPERUSER,non-reserved
-SYMMETRIC,reserved
-SYSID,non-reserved
-SYSTEM,non-reserved
-TABLE,reserved
-TABLES,non-reserved
-TABLESPACE,non-reserved
-TEMP,non-reserved
-TEMPLATE,non-reserved
-TEMPORARY,non-reserved
-TEXT,non-reserved
-THEN,reserved
-TIME,non-reserved (cannot be function or type)
-TIMESTAMP,non-reserved (cannot be function or type)
-TO,reserved
-TRAILING,reserved
-TRANSACTION,non-reserved
-TREAT,non-reserved (cannot be function or type)
-TRIGGER,non-reserved
-TRIM,non-reserved (cannot be function or type)
-TRUE,reserved
-TRUNCATE,non-reserved
-TRUSTED,non-reserved
-TYPE,non-reserved
-UNBOUNDED,non-reserved
-UNCOMMITTED,non-reserved
-UNENCRYPTED,non-reserved
-UNION,reserved
-UNIQUE,reserved
-UNKNOWN,non-reserved
-UNLISTEN,non-reserved
-UNTIL,non-reserved
-UPDATE,non-reserved
-USER,reserved
-USING,reserved
-VACUUM,non-reserved
-VALID,non-reserved
-VALIDATOR,non-reserved
-VALUE,non-reserved
-VALUES,non-reserved (cannot be function or type)
-VARCHAR,non-reserved (cannot be function or type)
-VARIADIC,reserved
-VARYING,non-reserved
-VERBOSE,reserved (can be function or type)
-VERSION,non-reserved
-VIEW,non-reserved
-VOLATILE,non-reserved
-WHEN,reserved
-WHERE,reserved
-WHITESPACE,non-reserved
-WINDOW,reserved
-WITH,reserved
-WITHOUT,non-reserved
-WORK,non-reserved
-WRAPPER,non-reserved
-WRITE,non-reserved
-XML,non-reserved
-XMLATTRIBUTES,non-reserved (cannot be function or type)
-XMLCONCAT,non-reserved (cannot be function or type)
-XMLELEMENT,non-reserved (cannot be function or type)
-XMLFOREST,non-reserved (cannot be function or type)
-XMLPARSE,non-reserved (cannot be function or type)
-XMLPI,non-reserved (cannot be function or type)
-XMLROOT,non-reserved (cannot be function or type)
-XMLSERIALIZE,non-reserved (cannot be function or type)
-YEAR,non-reserved
-YES,non-reserved
+################
+## Column 1: Word itself.
+## Column 2: Additional information or details
+## Column 3: Source referencing that the word is indeed reserved. Can be reference to the following:
+##           Project
+##           Website
+################
+ABORT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ABSOLUTE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ACCESS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ACTION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ADD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ADMIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+AFTER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+AGGREGATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ALL,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ALSO,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ALTER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ALWAYS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ANALYSE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ANALYZE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+AND,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ANY,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ARRAY,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+AS,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ASC,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ASSERTION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ASSIGNMENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ASYMMETRIC,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+AT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+AUTHORIZATION,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BACKWARD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BEFORE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BEGIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BETWEEN,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BIGINT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BINARY,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BIT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BOOLEAN,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BOTH,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+BY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CACHE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CALLED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CASCADE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CASCADED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CASE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CAST,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CATALOG,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CHAIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CHAR,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CHARACTER,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CHARACTERISTICS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CHECK,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CHECKPOINT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CLASS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CLOSE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CLUSTER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COALESCE,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COLLATE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COLUMN,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COMMENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COMMENTS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COMMIT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COMMITTED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONCURRENTLY,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONFIGURATION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONNECTION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONSTRAINT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONSTRAINTS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONTENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONTINUE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CONVERSION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COPY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+COST,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CREATE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CREATEDB,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CREATEROLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CREATEUSER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CROSS,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CSV,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_CATALOG,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_DATE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_ROLE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_SCHEMA,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_TIME,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_TIMESTAMP,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURRENT_USER,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CURSOR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+CYCLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DATA,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DATABASE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DAY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEALLOCATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEC,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DECIMAL,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DECLARE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEFAULT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEFAULTS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEFERRABLE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEFERRED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DEFINER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DELETE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DELIMITER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DELIMITERS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DESC,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DICTIONARY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DISABLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DISCARD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DISTINCT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DO,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DOCUMENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DOMAIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DOUBLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+DROP,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EACH,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ELSE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ENABLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ENCODING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ENCRYPTED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+END,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ENUM,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ESCAPE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXCEPT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXCLUDE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXCLUDING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXCLUSIVE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXECUTE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXISTS,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXPLAIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXTERNAL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+EXTRACT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FALSE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FAMILY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FETCH,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FIRST,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FLOAT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FOLLOWING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FOR,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FORCE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FOREIGN,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FORWARD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FREEZE,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FROM,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FULL,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FUNCTION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+FUNCTIONS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+GLOBAL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+GRANT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+GRANTED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+GREATEST,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+GROUP,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+HANDLER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+HAVING,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+HEADER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+HOLD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+HOUR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IDENTITY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IF,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ILIKE,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IMMEDIATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IMMUTABLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IMPLICIT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IN,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INCLUDING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INCREMENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INDEX,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INDEXES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INHERIT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INHERITS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INITIALLY,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INLINE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INNER,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INOUT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INPUT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INSENSITIVE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INSERT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INSTEAD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INTEGER,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INTERSECT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INTERVAL,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INTO,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+INVOKER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+IS,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ISNULL,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ISOLATION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+JOIN,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+KEY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LANGUAGE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LARGE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LAST,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LC_COLLATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LC_CTYPE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LEADING,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LEAST,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LEFT,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LEVEL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LIKE,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LIMIT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LISTEN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOAD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOCAL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOCALTIME,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOCALTIMESTAMP,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOCATION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOCK,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+LOGIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MAPPING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MATCH,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MAXVALUE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MINUTE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MINVALUE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MODE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MONTH,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+MOVE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NAME,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NAMES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NATIONAL,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NATURAL,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NCHAR,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NEXT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NO,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOCREATEDB,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOCREATEROLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOCREATEUSER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOINHERIT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOLOGIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NONE,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOSUPERUSER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOTHING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOTIFY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOTNULL,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NOWAIT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NULL,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NULLIF,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NULLS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+NUMERIC,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OBJECT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OF,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OFF,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OFFSET,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OIDS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ON,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ONLY,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OPERATOR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OPTION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OPTIONS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OR,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ORDER,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OUT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OUTER,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OVER,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OVERLAPS,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OVERLAY,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OWNED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+OWNER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PARSER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PARTIAL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PARTITION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PASSWORD,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PLACING,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PLANS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+POSITION,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PRECEDING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PRECISION,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PREPARE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PREPARED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PRESERVE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PRIMARY,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PRIOR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PRIVILEGES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PROCEDURAL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+PROCEDURE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+QUOTE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RANGE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+READ,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REAL,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REASSIGN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RECHECK,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RECURSIVE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REFERENCES,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REINDEX,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RELATIVE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RELEASE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RENAME,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REPEATABLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REPLACE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REPLICA,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RESET,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RESTART,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RESTRICT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RETURNING,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RETURNS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+REVOKE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RIGHT,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ROLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ROLLBACK,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ROW,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+ROWS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+RULE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SAVEPOINT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SCHEMA,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SCROLL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SEARCH,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SECOND,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SECURITY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SELECT,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SEQUENCE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SEQUENCES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SERIALIZABLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SERVER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SESSION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SESSION_USER,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SET,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SETOF,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SHARE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SHOW,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SIMILAR,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SIMPLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SMALLINT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SOME,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STABLE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STANDALONE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+START,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STATEMENT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STATISTICS,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STDIN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STDOUT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STORAGE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STRICT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+STRIP,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SUBSTRING,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SUPERUSER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SYMMETRIC,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SYSID,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+SYSTEM,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TABLE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TABLES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TABLESPACE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TEMP,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TEMPLATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TEMPORARY,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TEXT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+THEN,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TIME,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TIMESTAMP,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TO,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRAILING,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRANSACTION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TREAT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRIGGER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRIM,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRUE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRUNCATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TRUSTED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+TYPE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNBOUNDED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNCOMMITTED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNENCRYPTED,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNION,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNIQUE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNKNOWN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNLISTEN,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UNTIL,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+UPDATE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+USER,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+USING,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VACUUM,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VALID,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VALIDATOR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VALUE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VALUES,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VARCHAR,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VARIADIC,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VARYING,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VERBOSE,reserved (can be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VERSION,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VIEW,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+VOLATILE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WHEN,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WHERE,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WHITESPACE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WINDOW,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WITH,reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WITHOUT,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WORK,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WRAPPER,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+WRITE,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XML,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLATTRIBUTES,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLCONCAT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLELEMENT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLFOREST,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLPARSE,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLPI,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLROOT,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+XMLSERIALIZE,non-reserved (cannot be function or type), http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+YEAR,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
+YES,non-reserved, http://www.postgresql.org/docs/9.0/static/sql-keywords-appendix.html
 ZONE,non-reserved
